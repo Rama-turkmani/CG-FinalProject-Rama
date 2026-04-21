@@ -86,7 +86,7 @@ All runtime file lookups go through a tiny helper that tries `./`, `../`, `../..
 
 ---
 
-## 📝 Rubric Mapping (14 marks)
+## 📝 Rubric Mapping
 
 Each pair is **(A) implementation** + **(B) explanation**. Below is a quick guide to where each feature lives in the code so you can explain it during the viva.
 
