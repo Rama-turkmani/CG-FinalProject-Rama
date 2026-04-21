@@ -1,0 +1,56 @@
+# ============================================================================
+#  Git ignore - Computer Graphics Final Project
+#  Keeps the repository clean : only source, shaders, assets, README, vcxproj.
+# ============================================================================
+
+# ---- Visual Studio / MSBuild build output ----------------------------------
+.vs/
+x64/
+Win32/
+x86/
+bin/
+obj/
+Debug/
+Release/
+
+# ---- Per-user VS state -----------------------------------------------------
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# ---- Compiler / linker artefacts -------------------------------------------
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.tlog
+*.log
+*.idb
+*.iobj
+*.ipdb
+*.recipe
+
+# ---- Editor / OS junk ------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Local download of the upstream repo (temporary) -----------------------
+Rama_Final_temp/
+
+# ---- Vendored third-party libraries: keep them even though they contain .lib
+!ThirdParty/
+!ThirdParty/**
+ThirdParty/**/*.pdb
+ThirdParty/**/*.ilk
+ThirdParty/**/*.obj
