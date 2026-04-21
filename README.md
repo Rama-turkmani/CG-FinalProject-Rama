@@ -1,4 +1,4 @@
-# 3D Maze Collector — Final Project (Computer Graphics)
+# 3D Maze Collector — Final Project
 
 Student: Rama  Turkmani 
 Tech: C++20 · Modern OpenGL 3.3 Core · GLFW · GLEW · GLM · stb_image
